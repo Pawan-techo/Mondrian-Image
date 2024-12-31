@@ -1,0 +1,87 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0%;
+    padding: 0%;
+  }
+  .Container{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr 1fr 1fr;
+    background-color:black;
+    gap: 9px;
+    height: 748px;
+    width: 748px;
+  } 
+  .one{
+    background-color: red;
+    height: 414px;
+    width: 320px;
+  }
+  .two{
+    height: 414px;
+    width: 419px;
+    background-color: #F0F1EC;
+  }
+  .three{
+    height: 294px;
+    width: 320px;
+    background-color: #F0F1EC;
+  }
+  .four{
+    height: 294px;
+    width: 419px;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 9px;
+  }
+  .four-1{
+    height: 294px;
+    width: 360px;
+    background-color: #F0F1EC;
+  }
+  .four-2{
+    height: 325px;
+    width: 50px;
+    background-color:black;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+  .four-2-1{
+    height: 130px;
+    background-color: #004592;
+    border-bottom: 10px;
+  }
+  .four-2-2{
+    height: 177px;
+    background-color: #F0F1EC;
+  }
+  .five{
+    height: 22px;
+    width: 320px;
+    background-color: #F0F1EC;
+  }
+  .six{
+    height: 22px;
+    width: 360px;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 9px;
+  }
+  .six-1{
+  height: 22px;
+  width: 198px;
+  background-color: #F9D01E;
+  }
+  .six-2{
+    height: 22px;
+    width: 153px;
+    background-color: #232629;
+  }
